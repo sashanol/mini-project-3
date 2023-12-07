@@ -1,8 +1,44 @@
 
-h1 {
-    font-size: 40px;
+@font-face {
+    font-family: dela-gothic-one;
+    src: url(<link href="https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular" rel="stylesheet" />);
+    font-weight: 400;
 }
 
+h1 {
+    font-size: 80px;
+    font-family: dela-gothic-one, sans-serif;
+    text-align: center;
+    }
+
+
+
 h2 {
+    font-size: 35px;
+    font-family: dela-gothic-one, sans-serif;
+
+}
+
+p {
+    font-family: dela-gothic-one, sans-serif;
     font-size: 25px;
+}
+
+body {
+    background-color:pink;
+}
+
+ul.horizontal-list {
+    list-style: none;
+}
+
+ul.horizontal-list li {
+    display: inline-block;
+    padding: 0 0.5rem;
+    min-width: 12rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
