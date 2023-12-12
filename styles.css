@@ -42,10 +42,14 @@ a {
     color: palevioletred;
 }
 img {
-    width: 600px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
     
+}
+
+.image-container {
+
+    /* margin-left: 5%;
+    margin-right: 5%; */
 }
 
 .about-me {
@@ -108,4 +112,16 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   
+}
+
+/* mobile sizing is 450px */
+@media (max-width: 760px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
