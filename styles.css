@@ -39,6 +39,7 @@ ul.horizontal-list li {
 
 a {
     text-decoration: none;
+    color: palevioletred;
 }
 img {
     width: 600px;
@@ -106,4 +107,5 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  
 }
